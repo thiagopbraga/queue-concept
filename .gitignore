@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+npm-debug.log*
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker volumes (dados persistentes do RabbitMQ)
+docker-data/
+rabbitmq-data/
+
+# Temporary files
+tmp/
+temp/

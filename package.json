@@ -1,0 +1,26 @@
+{
+  "name": "rabbitmq-nodejs-demo",
+  "version": "1.0.0",
+  "description": "Demonstração de RabbitMQ com Node.js - Load Balancing e Broadcast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:lb-producer": "node load_balancing/producer_lb.js",
+    "start:lb-consumer": "node load_balancing/consumer_lb.js",
+    "start:bc-producer": "node broadcast/producer_bc.js",
+    "start:bc-consumer": "node broadcast/consumer_bc.js"
+  },
+  "keywords": [
+    "rabbitmq",
+    "nodejs",
+    "load-balancing",
+    "broadcast",
+    "fanout",
+    "amqp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
