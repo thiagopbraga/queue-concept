@@ -49,9 +49,14 @@ docker-compose up -d
 
 Na raiz do projeto:
 
+#### 1. Instalar dependências
 ```bash
-npm init -y
-npm install amqplib
+npm install
+```
+
+#### 2. Subir o RabbitMQ
+```bash
+docker-compose up -d
 ```
 
 ---
